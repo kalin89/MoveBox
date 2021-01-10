@@ -1,0 +1,41 @@
+.contaienr {
+  width: 100%;
+  height: 100vh;
+  padding: 20px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 120px auto 120px;
+  grid-template-rows: 120px auto 120px;
+  justify-content: center;
+}
+
+/* .grid div {
+  padding: 1em;
+} */
+
+.box-gray-small {
+  background-color: gray;
+}
+
+.box-gray-big {
+  background-color: gray;
+}
+
+.reactangle-button-small {
+  background-color: #66b9df;
+  width: 80vh;
+  cursor: pointer;
+}
+
+.reactangle-button-big:hover,
+.reactangle-button-small:hover {
+  border: solid 1px black;
+}
+
+.reactangle-button-big {
+  background-color: #66b9df;
+  height: 40vh;
+  cursor: pointer;
+}
